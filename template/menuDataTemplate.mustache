@@ -1,0 +1,18 @@
+export default {
+    sideData: [
+      {{#menuData}}
+      { 
+        name: '{{&category}}',
+        path: '{{&path}}',
+        children: [
+          {{#children}}
+          { 
+            name: '{{&name}}',
+            path: {{&path}},
+          }, 
+          {{/children}}
+        ]
+      }, 
+      {{/menuData}}
+    ]
+}
