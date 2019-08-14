@@ -1,0 +1,37 @@
+{
+  "name": "@dtux/component-user-login",
+  "version": "1.0.0",
+  "description": "登陆",
+  "homepage": "",
+  "author": "dtux",
+  "main": "index.js",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dtux-kangaroo/ko-resouce/tree/master/react-resource/components/user-login"
+  },
+  "keywords": [
+    "ko",
+    "react",
+    "component"
+  ],
+  "dependencies": {
+    
+  },
+  "componentConfig": {
+    "name": "user-login",
+    "title": "登陆",
+    "categories": [
+      "表单"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/dtux-kangaroo/roo-config/master/component-covers/user-login.png"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "gitHead": "546e0980b33ba796d56a0b39b7105c650ac84592"
+}

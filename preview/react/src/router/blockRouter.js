@@ -1,4 +1,3 @@
-import React from 'react';
 import BlockLayout  from 'layout/blockLayout';
 import About from 'block/about/src'
  //brand-display
@@ -6,7 +5,7 @@ import About from 'block/about/src'
 import ChartPie from 'block/chart-pie/src'
 import NotFound from 'block/not-found/src'
 
-const blockRouter=[
+const routerConf = [
     {
         path: '/block',
         layout: BlockLayout,
@@ -29,4 +28,4 @@ const blockRouter=[
     }
 ]
 
-export default blockRouter;
+export default routerConf;

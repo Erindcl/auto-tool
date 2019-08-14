@@ -1,5 +1,5 @@
 {
-  "name": "create-page",
+  "name": "add-resource",
   "version": "1.0.0",
   "description": "this is cli",
   "main": "index.js",
@@ -7,12 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "createPage": "./bin/createPage.js",
-    "createComp": "./bin/createComp.js"
+    "addResource": "./bin/addResource.js"
   },
   "keywords": [
-    "createPage",
-    "createComp"
+    "addResource"
   ],
   "author": "Erin",
   "license": "ISC",
