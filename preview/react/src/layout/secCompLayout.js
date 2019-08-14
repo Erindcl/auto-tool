@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import MainLayout from './mainLayout'
 import SideNav from '../components/sideNav'
 import ScrollToTop from 'react-scroll-up';
-import { sideData as SIDE_DATA} from '../constant/compMenu';
+import CompMenu from '../constant/compMenu';
 export default class BlockLayout extends Component {
   constructor(props) {
     super(props);
     this.state = {
-        sideData: SIDE_DATA
+        sideData: CompMenu.sideData || []
     };
 }
   render() {

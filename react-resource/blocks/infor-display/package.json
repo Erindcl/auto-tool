@@ -1,0 +1,37 @@
+{
+  "name": "@dtux/block-infor-display",
+  "version": "1.0.0",
+  "description": "信息展示",
+  "homepage": "",
+  "author": "dtux",
+  "main": "index.js",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dtux-kangaroo/ko-resouce/tree/master/react-resource/blocks/infor-display"
+  },
+  "keywords": [
+    "ko",
+    "react",
+    "block"
+  ],
+  "dependencies": {
+    
+  },
+  "blockConfig": {
+    "name": "infor-display",
+    "title": "信息展示",
+    "categories": [
+      "信息展示"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/dtux-kangaroo/roo-config/master/block-covers/infor-display.png"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "gitHead": "546e0980b33ba796d56a0b39b7105c650ac84592"
+}
